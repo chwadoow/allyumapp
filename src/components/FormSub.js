@@ -17,7 +17,7 @@ function FormSub({addToRecipes}) {
      
       function handleSubmit(event){
         event.preventDefault()
-        fetch('http://localhost:3000/meal', {
+        fetch('https://allyum.herokuapp.com/meal', {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
