@@ -5,7 +5,7 @@ function FirstData() {
   const[data,setData]=useState([])
     
   useEffect(()=>{
-   fetch('http://localhost:3000/meal')
+   fetch('https://allyum.herokuapp.com/meal')
    .then((res)=>res.json())
    .then((res)=>setData(res))
 
