@@ -55,12 +55,12 @@ function FormSub({addToRecipes}) {
         <strong>Add you recipe here !</strong>
           <form onSubmit={handleSubmit} className='form' >
           
-    <input type="text"  style={{background:'orange'}} id='name' onChange={handleChange} value={formData.name} placeholder='enter name' required />
-    <input type="text"  style={{background:'orange'}} id='ingredients' onChange={handleChange} value={formData.ingredients} placeholder='enter ingredients' required/>
-    <input type="text"  style={{background:'orange'}} id='link' onChange={handleChange} value={formData.link} placeholder='enter image link'/>
-    <input type='text'  style={{background:'orange'}} id='steps' onChange={handleChange} value={formData.steps} placeholder='enter steps in prose' required/>
-    <input type='text'  style={{background:'orange'}} id='youtube' onChange={handleChange} value={formData.youtube} placeholder='enter embed youtube video link' required/>
-    <button style={{background:'purple'}} type="submit">Submit</button>
+    <input type="text"  style={{background:'yellow'}} id='name' onChange={handleChange} value={formData.name} placeholder='enter name' required />
+    <input type="text"  style={{background:'yellow'}} id='ingredients' onChange={handleChange} value={formData.ingredients} placeholder='enter ingredients' required/>
+    <input type="text"  style={{background:'yellow'}} id='link' onChange={handleChange} value={formData.link} placeholder='enter image link'/>
+    <input type='text'  style={{background:'yellow'}} id='steps' onChange={handleChange} value={formData.steps} placeholder='enter steps in prose' required/>
+    <input type='text'  style={{background:'yellow'}} id='youtube' onChange={handleChange} value={formData.youtube} placeholder='enter embed youtube video link' required/>
+    <button style={{background:'green'}} type="submit">Submit</button>
   </form>
     </div>
   )
