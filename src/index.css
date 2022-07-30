@@ -1,13 +1,52 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+ 
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.home{
+  background-color: azure;
+}
+.about{
+  background-color: azure;
+}
+
+.form{
+  background-color: azure;
+}
+.upper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:azure;
+  
+  }
+
+.title{
+  color: white;
+  font-family: verdana;
+  font-size: 360%; 
+}
+.ingredients{
+  color: white;
+  font-family: courier;
+  font-size: 160%;
+}
+.steps{
+  color: white;
+  font-size: 100%;
+
+}
+img {
+  width: 100%;
+  height: 650px;
+  opacity: 0.4;
+}
+.contacts{
+  background-color: azure;
+}
+
